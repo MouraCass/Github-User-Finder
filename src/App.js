@@ -1,4 +1,4 @@
-import { AppContainer } from "./components/AppContainer";
+import { AppContainer } from "./Components/AppContainer";
 import "./Styles/App.css";
 
 function App() {
