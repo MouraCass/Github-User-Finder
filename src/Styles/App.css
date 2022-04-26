@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+  height: 100%;
+}
+.AppName {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5%;
+  font-size: x-large;
+}
+.AppContent {
+  height: 95%;
+}

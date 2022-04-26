@@ -1,0 +1,29 @@
+.NavBar {
+  height: 5%;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(246, 6, 246);
+  margin: 0;
+  padding: 2px;
+  border: 1px solid black;
+}
+
+.NavBar div {
+  padding: 0px;
+  font-size: medium;
+}
+
+.MainContent {
+  height: 95%;
+  border: 1px solid black;
+}
+
+@media only screen and (max-width: 400px) {
+  .NavBar {
+    padding: unset;
+  }
+
+  .MainContent {
+    border: none;
+  }
+}
